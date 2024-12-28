@@ -1,0 +1,243 @@
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes the full height of the viewport */
+    margin: 0;
+}
+
+header {
+    background-color: #2E2E4E; /* Midnight Manuscript */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px; /* Arial Bold 30px */
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px; /* Calibri Normal 16px */
+    color: #F8F8F8;
+}
+
+nav ul li a:hover {
+    color: #742C36; /* Romantic Red */
+}
+
+/* Main Content */
+main {
+    flex: 1; /* Pushes the footer to the bottom if content is short */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 25px; /* Arial Bold 25px */
+    color: #5C2E5C; /* Regal Quill */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+section div img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #D3D3D3; /* Placeholder background */
+}
+
+section div p {
+    font-size: 15px; /* Comfortaa Normal 15px */
+    color: #3F5461; /* Literature Blue */
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #3E5641; /* Book Worm */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+}
+
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer ul li {
+    margin: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 14px; /* Calibri Bold 16px */
+    color: white;
+}
+
+footer ul li a:hover {
+    color: #742C36; /* Romantic Red */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section div img {
+        max-width: 100%;
+    }
+}
+
+/* Categories Section */
+.category-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add spacing between items */
+}
+
+.category {
+    position: relative; /* Enables positioning of text relative to the image */
+    text-align: center;
+}
+
+.category img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.category p {
+    position: absolute;
+    top: 50%; /* Centers text vertically */
+    left: 50%; /* Centers text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts for the text size */
+    color: white; /* Makes text visible */
+    font-size: 16px; /* Calibri Normal 16px */
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+    padding: 5px 10px; /* Adds padding around the text */
+    border-radius: 5px; /* Rounds the background corners */
+}
+/* Client Highlights Section */
+.highlights {
+    display: flex;
+    flex-wrap: wrap; /* Ensures proper wrapping on smaller screens */
+    justify-content: center;
+    gap: 20px; /* Adds space between highlights */
+    text-align: center;
+}
+
+.highlight {
+    max-width: 400px; /* Limits the width for better readability */
+    padding: 15px; /* Adds spacing inside each highlight */
+    background-color: #F8F8F8; /* Light background to distinguish the section */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a clean look */
+}
+
+.highlight h3 {
+    font-size: 20px; /* Makes the highlight title prominent */
+    color: #5C2E5C; /* Regal Quill for titles */
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    font-size: 15px; /* Comfortable reading size */
+    color: #3F5461; /* Literature Blue for text */
+}
+
+/* Shopping Perks Section */
+.perks {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the perks wrap on smaller screens */
+    justify-content: center;
+    gap: 20px; /* Adds spacing between perk cards */
+    text-align: center; /* Center-aligns the text in each perk */
+}
+
+.perk {
+    max-width: 300px; /* Limits the width for better readability */
+    padding: 15px; /* Adds spacing inside each perk */
+    background-color: #F8F8F8; /* Light background for contrast */
+    border-radius: 8px; /* Rounds the corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a clean look */
+}
+
+.perk h3 {
+    font-size: 18px; /* Slightly smaller than section titles */
+    color: #5C2E5C; /* Regal Quill for titles */
+    margin-bottom: 10px;
+}
+
+.perk p {
+    font-size: 15px; /* Comfortable reading size */
+    color: #3F5461; /* Literature Blue for text */
+}
+
+        /* Shopping Promos Section */
+.promos {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Center-aligns the promo cards */
+    gap: 20px; /* Adds space between promo cards */
+    text-align: center; /* Centers text inside each promo */
+}
+
+.promo {
+    max-width: 300px; /* Limits width for better readability */
+    padding: 15px; /* Adds internal spacing */
+    background-color: #F8F8F8; /* Light background to differentiate promos */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
+}
+
+.promo h3 {
+    font-size: 18px; /* Slightly smaller than section titles */
+    color: #742C36; /* Romantic Red for promo titles */
+    margin-bottom: 10px;
+}
+
+.promo p {
+    font-size: 15px; /* Comfortable reading size */
+    color: #3F5461; /* Literature Blue for text */
+}
