@@ -241,3 +241,120 @@ footer ul li a:hover {
     font-size: 15px; /* Comfortable reading size */
     color: #3F5461; /* Literature Blue for text */
 }
+
+/* Cart Section */
+.cart-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.view-cart-button {
+    background-color: #742C36; /* Romantic Red */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; /* Calibri Normal 16px */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.view-cart-button:hover {
+    background-color: #5C2E5C; /* Regal Quill */
+}
+
+/* Items/Services Grid */
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Spacing between items */
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.item {
+    text-align: center;
+    background-color: #F8F8F8; /* Light background for items */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 250px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item p {
+    font-size: 15px; /* Comfortaa Normal 15px */
+    color: #3F5461; /* Literature Blue */
+    margin: 10px 0;
+}
+
+.item button {
+    background-color: #3E5641; /* Book Worm */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px; /* Calibri Bold 16px */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item button:hover {
+    background-color: #742C36; /* Romantic Red */
+}
+
+/* Table Cell Styling */
+.item-table td {
+    background-color: #F8F8F8; /* Light background for items */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center-aligns all content inside */
+    vertical-align: top; /* Ensures proper alignment */
+    width: 200px; /* Sets a uniform width */
+    height: 300px; /* Sets a uniform height */
+}
+
+/* Ensuring Consistent Image Size */
+.item-table img {
+    width: 120px; /* Uniform width for all images */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Button Styling */
+.item-table button {
+    background-color: #3E5641; /* Book Worm */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 14px; /* Calibri Bold 16px */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-table button:hover {
+    background-color: #742C36; /* Romantic Red */
+}
+
+/* Text Styling */
+.item-table p {
+    font-size: 15px; /* Comfortable reading size */
+    color: #3F5461; /* Literature Blue for text */
+    margin: 10px 0; /* Space around text */
+    word-wrap: break-word; /* Ensures long words wrap within cell */
+    overflow: hidden; /* Prevents overflow of text */
+    text-overflow: ellipsis; /* Adds '...' if text overflows */
+}
+
+.item-table {
+    margin: 0 auto; /* Centers the table horizontally */
+}
