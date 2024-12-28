@@ -358,3 +358,73 @@ footer ul li a:hover {
 .item-table {
     margin: 0 auto; /* Centers the table horizontally */
 }
+
+/* Description Section */
+.description-section {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.description-section p {
+    font-size: 16px;
+    color: #3F5461; /* Literature Blue */
+    line-height: 1.6;
+}
+
+/* Business Hours Section */
+.business-hours {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.business-hours p {
+    font-size: 16px;
+    color: #3F5461; /* Literature Blue */
+    line-height: 1.6;
+}
+
+/* Feedback Form */
+.feedback-form {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.feedback-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.feedback-form label {
+    font-size: 16px;
+    color: #5C2E5C; /* Regal Quill */
+}
+
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    background-color: #F8F8F8; /* Light Background */
+}
+
+.feedback-form button {
+    background-color: #3E5641; /* Book Worm */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background-color: #742C36; /* Romantic Red */
+}
