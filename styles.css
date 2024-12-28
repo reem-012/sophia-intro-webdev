@@ -428,3 +428,60 @@ footer ul li a:hover {
 .feedback-form button:hover {
     background-color: #742C36; /* Romantic Red */
 }
+
+/* Testimonials Section */
+.testimonials {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #F8F8F8; /* Light background for contrast */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-size: 16px;
+    color: #3F5461; /* Literature Blue */
+}
+
+.testimonial strong {
+    color: #742C36; /* Romantic Red */
+    font-size: 14px;
+}
+
+/* Community Involvements Section */
+.community {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.community ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left; /* Aligns the list to the left */
+    font-size: 16px;
+    color: #3F5461; /* Literature Blue */
+}
+
+/* Events and Collaborations Section */
+.events {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.events ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left; /* Aligns the list to the left */
+    font-size: 16px;
+    color: #3F5461; /* Literature Blue */
+}
